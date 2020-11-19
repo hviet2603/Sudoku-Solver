@@ -38,9 +38,8 @@ public class SudokuBoard {
                 }
             }
             System.out.println("|");
+            if (i%3 == 2) System.out.println("-------------------------------------");
         }
-        System.out.println("-------------------------------------");
-
      }
 
      public boolean isSolved() {
